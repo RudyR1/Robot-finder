@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 
 import Robots from './data/data';
-//import RobotCard from './components/RobotCard';
+import RobotCard from './components/RobotCard';
 
 function App() {
   console.log(Robots)
@@ -12,15 +12,9 @@ function App() {
 
       <h1>Robot Finder</h1>
     
+
     <div className="robotContainer">
-        {Robots.map((robot) => {return (<div key={robot.id} className="robotCard">
-          <h2>{robot.name} {robot.username}</h2>
-          <p>Phone: {robot.phone}</p>
-          <p>Email: {robot.email}</p>
-          <p>Website: {robot.website}</p>
-          </div>)
-      
-        })}
+    {Robots.map((robot) => <RobotCard key={robot.id} robot={robot}/>)}
     </div>
     </div>
   );
