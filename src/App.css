@@ -1,4 +1,4 @@
-.App {
+.app {
   text-align: center;
 }
 h1 {
@@ -6,4 +6,16 @@ h1 {
 }
 h2 {
   color: rgb(165, 165, 107);
+}
+.robotContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.robotCard {
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px 0px  rgba(0,0,0,0,75);
+  -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  margin: 1%;
 }
