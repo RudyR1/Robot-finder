@@ -10,7 +10,7 @@ const [activ, setActive] = useState(false);
     </div>
     <div>
       {activ ? <div>
-        <h6 className="text-center">Mon adresse</h6>
+        <h5 className="text-center">Mon adresse:</h5>
         <p className="text-center">{address.suite}</p>
         <p className="text-center">{address.street}</p>
         <p className="text-center">{address.zipcode} - {address.city}</p></div> : ''

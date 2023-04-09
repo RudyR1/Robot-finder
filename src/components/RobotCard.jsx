@@ -10,6 +10,7 @@ return (
           <p>Email: {robot.email}</p>
           <p>Website: {robot.website}</p>
           <RobotAddress address={robot.address}/>
+          <img className="img-robot" src={`https://robohash.org/${robot.id}?set=set2 `} alt="Robot"/>
 </div>
 )  
     
