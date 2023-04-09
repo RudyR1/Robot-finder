@@ -1,4 +1,9 @@
 .App {
   text-align: center;
 }
-
+h1 {
+  color: rgb(106, 150, 189);
+}
+h2 {
+  color: rgb(165, 165, 107);
+}
