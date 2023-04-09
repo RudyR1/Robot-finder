@@ -11,11 +11,10 @@ function App() {
     <div className="app">
 
       <h1>Robot Finder</h1>
-    
 
-    <div className="robotContainer">
-    {Robots.map((robot) => <RobotCard key={robot.id} robot={robot}/>)}
-    </div>
+        <div className="robotContainer">
+          {Robots.map((robot) => <RobotCard key={robot.id} robot={robot}/>)}
+        </div>
     </div>
   );
 }

@@ -19,3 +19,20 @@ h2 {
   -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
   margin: 1%;
 }
+
+.btn {
+  padding: 2% 20%;
+  margin: 2%;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+}
+
+.btn-green {
+  background-color: green;
+  color: white;
+}
