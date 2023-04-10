@@ -12,7 +12,9 @@ h2 {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.robotCard {
+.card {
+  background: white;
+  flex: 1;
   border: 2px solid black;
   border-radius: 15px;
   box-shadow: 10px 10px 5px 0px  rgba(0,0,0,0,75);
@@ -40,4 +42,17 @@ h2 {
 .img-robot {
   max-width: 200px;
   border-radius: 25px;
+}
+.searchContainer {
+  margin: 5%;
+  padding: 5%
+}
+
+.searchContainer input {
+  margin: 2%;
+  background-color: lightgray;
+  padding: 2%;
+  border-radius: 15px;
+  border: none;
+  font-style: italic;
 }
